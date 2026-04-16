@@ -1,0 +1,23 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+input, button {
+  margin: 5px;
+  padding: 8px;
+  width: 90%;
+}
+
+button {
+  background: green;
+  color: white;
+  border: none;
+}
