@@ -1,0 +1,20 @@
+<h2>Dashboard</h2>
+
+<form method="POST">
+  <input name="type" placeholder="Workout Type">
+  <input name="duration" placeholder="Duration">
+  <input name="calories" placeholder="Calories">
+  <input name="date" type="date">
+  <input name="notes" placeholder="Notes">
+  <button>Add Workout</button>
+</form>
+
+<br>
+<a href="/add_steps"><button>Add 500 Steps</button></a>
+
+<h3>Workouts</h3>
+<ul>
+  {% for w in workouts %}
+    <li>{{w[2]}} - {{w[4]}} cal ({{w[7]}})</li>
+  {% endfor %}
+</ul>
